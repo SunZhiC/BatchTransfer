@@ -1,0 +1,29 @@
+# Hardhat artifacts
+artifacts/
+
+# Compiled files
+*.json
+!package.json
+*.js
+!TestToadz.test.js
+
+# Cache and logs
+.cache/
+.history/
+.log/
+.pnp.*
+yarn-error.log
+
+# local settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc.local
+.env
+
+# dependencies
+node_modules/
+Flattened.sol
+
+typechain-types
